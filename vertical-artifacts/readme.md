@@ -1,6 +1,6 @@
-To run this, create a static HTTP server locally and serve the files. 
+This demo demonstrates the appearance of vertical artifacts in Maplibre, when the background is transparent.
 
-Here are two ways to do this.
+To run this, create a static HTTP server locally and serve the files. Here are two ways to do this.
 
 ## Using NodeJS
 
