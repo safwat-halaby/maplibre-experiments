@@ -1,0 +1,38 @@
+<div id="picker">
+	<h1 class="startupOnly">Choose a map:</h1>
+	<table>
+		<tr class="startupOnly">
+			<td>With terrain:</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><button class="red" onclick="changeStyle('styles/terrain/ofm-seethrough.style.json')">Background: See-through modified OpenFreeMap</button></td>
+			<td class="startupOnly"> - Many vertical artifacts visible</td>
+		</tr>
+		<tr>
+			<td><button class="yellow" onclick="changeStyle('styles/terrain/transparent-with-terrain.style.json')">Background: blank | Overlay: line and polygon</button></td>
+			<td class="startupOnly">- Some Vertical artifacts visible</td>
+		</tr>
+		<tr>
+			<td><button class="green" onclick="changeStyle('styles/terrain/osm-with-terrain.style.json')">Background: OSM | Overlay: line and polygon</button></td>
+			<td class="startupOnly">- No vertical artifacts visible</td>
+		</tr>
+		<tr>
+			<td><label class="white">No terrain:</label></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><button class="green" onclick="changeStyle('styles/no-terrain/ofm-seethrough.style.json')">Background: See-through modified OpenFreeMap</button></td>
+			<td class="startupOnly"> - No vertical artifacts visible</td>
+		</tr>
+		<tr>
+			<td><button class="green" onclick="changeStyle('styles/no-terrain/transparent-with-terrain.style.json')">Background: blank | Overlay: line and polygon</button></td>
+			<td class="startupOnly">- No vertical artifacts visible</td>
+		</tr>
+		<tr>
+			<td><button class="green" onclick="changeStyle('styles/no-terrain/osm-with-terrain.style.json')">Background: OSM | Overlay: line and polygon</button></td>
+			<td class="startupOnly">- No vertical artifacts visible</td>
+		</tr>
+	</table>
+</div>
+<div id="map"></div>

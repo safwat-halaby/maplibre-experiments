@@ -1,0 +1,33 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body,
+#map {
+	height: 100%;
+}
+
+#picker {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 50;
+}
+
+.red {
+	background-color: rgb(255, 150, 150);
+}
+
+.yellow {
+	background-color: rgb(255, 255, 150);
+}
+
+.green {
+	background-color: rgb(150, 255, 150);
+}
+
+.white {
+	background-color: white;
+}
